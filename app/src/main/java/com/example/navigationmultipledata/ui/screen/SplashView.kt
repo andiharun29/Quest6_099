@@ -28,3 +28,8 @@ fun SplashView(onMulaiButton: () -> Unit) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
+        Image(
+            painter = painterResource(R.drawable.umyeah),
+            contentDescription = null,
+            modifier = Modifier.size(200.dp)
+        )
